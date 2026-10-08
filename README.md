@@ -57,7 +57,7 @@ Markers plugin.
 | Show labels | Draw text labels on tiles that have one. |
 | Label color | Color of tile labels. |
 | Label font size | Point size of tile labels. |
-| Show minimap dots | Outline each filled tile on the minimap. |
+| Show minimap outlines | Outline each filled tile on the minimap. |
 | Import / export menu | Add Export / Import / Clear options to the world-map orb for sharing codes. |
 
 ## Building & running

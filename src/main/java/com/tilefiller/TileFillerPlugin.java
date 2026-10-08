@@ -87,11 +87,11 @@ public class TileFillerPlugin extends Plugin
 	// Region-level sharing is attached to the world-map orb widget (the same component Ground
 	// Markers uses) so it is always reachable, not just when hovering a filled tile.
 	private static final WidgetMenuOption EXPORT_TILES_OPTION =
-		new WidgetMenuOption("Export", "Fill tiles", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
+		new WidgetMenuOption("Export", "Tile Filler", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
 	private static final WidgetMenuOption IMPORT_TILES_OPTION =
-		new WidgetMenuOption("Import", "Fill tiles", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
+		new WidgetMenuOption("Import", "Tile Filler", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
 	private static final WidgetMenuOption CLEAR_TILES_OPTION =
-		new WidgetMenuOption("Clear", "Fill tiles", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
+		new WidgetMenuOption("Clear", "Tile Filler", InterfaceID.Orbs.WORLDMAP, InterfaceID.OrbsNomap.WORLDMAP);
 
 	/**
 	 * Rendered markers resolved to the current world view(s). Rebuilt from persisted points

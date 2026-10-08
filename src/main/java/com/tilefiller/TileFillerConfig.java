@@ -146,7 +146,7 @@ public interface TileFillerConfig extends Config
 
 	@ConfigItem(
 		keyName = "showMinimapDots",
-		name = "Show minimap dots",
+		name = "Show minimap outlines",
 		description = "Outline each filled tile on the minimap.",
 		position = 10
 	)
